@@ -128,7 +128,7 @@ function functionTemperrature(tab2 , number){
 
   while (i < tab2.length) {
     currentElement = tab2[i]
-    nomSub = currentElement[0]
+    nameSub = currentElement[0]
     tempEbu =  parseInt(currentElement[2]);
 
     if (tempEbu < number) {
@@ -139,4 +139,3 @@ function functionTemperrature(tab2 , number){
   }
   return valeurInferieure
   }
- 
